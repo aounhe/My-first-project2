@@ -1,2 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
 
-      
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	margin: 0;
+	background-color: rgb(243, 237, 237);
+}
+
+h1,h2,h3 {
+	font-family: 'Merienda One', 'Brush Script MT', cursive;
+}
+
+h1 {
+	font-size: 3rem;
+	margin: 0;
+}
+
+h2 {
+	font-size: xx-large;
+}
+
+header {
+	color: rgb(14, 14, 13);
+}
+
+header > p {
+	color: rgb(83, 45, 45);
+}
+
+div.transbox {
+  margin: auto;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+header {
+	background-color: black;
+}
+
+#home {
+    background-image: url('https://www.stockvault.net/data/2014/03/14/154614/preview16.jpg');
+}
+
+input[type=text],
+input[type=email],
+input[class=form-control],
+select[class=form-select] {
+    height: 30px;
+    width: 50%;
+    padding-left: 10px;
+	margin: 0 auto;
+}
+
