@@ -40,6 +40,8 @@ header {
 
 #home {
     background-image: url('https://www.stockvault.net/data/2014/03/14/154614/preview16.jpg');
+    height: 600px;
+    width: 100%;
 }
 
 input[type=text],
@@ -51,4 +53,45 @@ select[class=form-select] {
     padding-left: 10px;
 	margin: 0 auto;
 }
+/* padding to allow for fixed footer */
+#contact {
+    margin-bottom: 50px;
+}
 
+/* map */
+#map-wrapper {
+
+    height: 300px;
+    margin-bottom: 107px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+footer {
+	background-color: #0f0e0e;
+	padding: 1em;
+	text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
+}
+
+footer > span {
+	color: silver;
+}
+
+footer > a {
+	color: beige;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 0.8rem;
+}
+
+footer > p {
+	color: silver;
+}
