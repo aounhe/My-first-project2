@@ -24,7 +24,7 @@ header {
 }
 
 header > p {
-	color: rgb(83, 45, 45);
+	color: rgb(27, 30, 8)
 }
 
 div.transbox {
@@ -70,15 +70,16 @@ select[class=form-select] {
     width: 100%;
     border: none;
 }
+/* footer*/
 footer {
-	background-color: #0f0e0e;
+	background-color: #151414;
 	padding: 1em;
 	text-align: center;
     width: 100%;
     position: fixed;
     bottom: 0;
     right: 0;
-	z-index: 3;
+	z-index: 6;
 }
 
 footer > span {
