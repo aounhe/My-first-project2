@@ -17,6 +17,7 @@
 </head>
 <body>
     <!--navbar-->
+ <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Vale Taxis</a>
@@ -43,29 +44,30 @@
             </div>
         </div>
     </nav>
-    <header class="text-center page-header" id="home">
+ </header>
+    <section class="text-center page-header" id="home">
         <h1>Bookings</h1>
         <p>To reserve the ride, please complete and submit the booking form</p>
         <br>
         <!--booking form-->
         <div class="transbox">
-            <form action="">
+            <form action="/action_page.php">
 
-                <input class="form-control" type="text" placeholder="Pick Up Location" aria-label="Pick Up Location">
-                <input class="form-control" type="text" placeholder="Drop Off Location" aria-label="Drop Off Location">
-                <input class="form-control" type="text" placeholder="Date/Time" aria-label="date">
-                <input class="form-control" type="text" placeholder="Phone Number" aria-label="Phone Number">
+                <input class="form-control" type="text" placeholder="Pick Up Location" aria-label="Pick Up Location" required>
+                <input class="form-control" type="text" placeholder="Drop Off Location" aria-label="Drop Off Location" required>
+                <input class="form-control" type="text" placeholder="Date/Time" aria-label="date" required>
+                <input class="form-control" type="text" placeholder="Phone Number" aria-label="Phone Number" required>
                 <select class="form-select" aria-label="Default select example">
                     <option selected>Select a car</option>
                     <option value="1">Estate</option>
                     <option value="2">Saloon</option>
                     <option value="3">Mpv</option>
-                </select> <button type="button" class="btn btn-dark">Book Now</button>
+                </select> <button type="submit" class="btn btn-dark">Book Now</button>
         </div>
         </form>
         </div>
         <br>
-    </header>
+    </section>
     <!--main-->
     <section id="paragraph1">
     <p>Need to book a taxi in Barry or the Vale of Glamorgan?
@@ -85,16 +87,14 @@
         <li>Wedding cars</li>
         <li> Business travel</li>
     </ul>
-    Located just 10 miles from Cardiff, Barry is a vibrant coastal town with a bustling High Street. It is famous for
+    </p>
+    <p>Located just 10 miles from Cardiff, Barry is a vibrant coastal town with a bustling High Street. It is famous for
     its golden beaches and the family amusement park of Barry Island.
-
     Home to the hit TV series Gavin and Stacey, Barry Island is definitely a place for Nessa fans to visit!
-
-    So whether you need an airport transfer to Cardiff Airport or need a ride Goodsheds – for the fastest taxis in
-    Barry, look no further than Dragon Taxis.
-
+    So whether you need an airport transfer to Cardiff Airport or need a ride Goodsheds. 
     To start booking a cab today, just give us a call on 0123456789, book online or download our easy-to-use app.
     </p>
+    <br>
     </section>
      <!--footer-->
     <footer class="text-uppercase">
