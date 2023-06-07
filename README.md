@@ -4,7 +4,7 @@ milestone 1
 
 Vale Taxis is a site that helps people getting a taxi in the Vale of Glamorgan area. The site will be targeted toward custumors who are looking for a Taxi. Vale Taxis will be useful for peolpe booking a taxi.
 
-![Responsice Mockup](assets/images/valetaxis-main-page.jpg)
+![Responsice Mockup](assets/images/responsive1.jpg)
 
 ## Features 
 
@@ -78,7 +78,8 @@ This website is targeting people who want to book a taxi. Therefor the site cont
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 
-
+- Javascript
+  - https://jshint.com/
 ## Deployment
 
 
