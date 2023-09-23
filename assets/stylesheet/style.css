@@ -6,6 +6,23 @@ body {
     background-color: rgb(207, 205, 205);
     background-image: url('https://images.unsplash.com/photo-1582820795651-f358eebe4406?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2671&q=80');
 }
+h1,
+h2,
+h3 {
+    font-family: 'Merienda One', 'Brush Script MT', cursive;
+}
+h1 {
+    font-size: 3rem;
+    margin: 10px;
+    padding: 20px;
+    text-align:center;
+}
+h2 {
+    
+    margin: 10px;
+    padding: 20px;
+    text-align:center;
+}
 footer {
     width: 100%;
     min-height: 10vh;
@@ -13,5 +30,4 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-   
 }
