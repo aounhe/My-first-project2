@@ -2,104 +2,128 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--bootstrap-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <!--fontawsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-        <!--css-->
-        <link rel="stylesheet" type="text/css" href="assets/stylesheet/style.css" />
-        <!--javascript-->  
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    <!--javascript-->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-        <title>Vale Taxis</title>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="assets/stylesheet/style.css" />
+    <title>Vale Taxis</title>
 </head>
+
 <body>
-    <!--navbar-->
+    <!--nav bar-->
     <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Vale Taxis</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="booking.html">Bookings</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="service.html">Our Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Vale Taxis</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
-    <!--main-->
-        <h1 align="center">Contact Us</h1>
+    <h1 align="center">Contact Us</h1>
     <br>
-    <section id="contact">
-        
-               <h3> Feedback about your driver</h3>
-               <p>You may also wish to send feedback directly to your local Licencing Department for incidents related to your driver.
-                
-                When contacting your local authority, remember to include:
-                <ul>
-               <li> A photo/note of the driver number​</li>
-               <li> the vehicle registration number</li>
-                <li>the license plate number</li>
-                <li>the date, time, and where the incident happened.</li>
-            </ul>
-            </p>
-            <button type="submit" class="btn btn-secondary">Submit </button>
-            <br>
-                <h3>Get in touch</h3>
-    
-                <div>
-                <span class="bold">Phone: </span>
-                <span>012 345 678 910</span>
-                </div>
-                <div>
-                <span class="bold">Email: </span>
-                <span>email@valetaxi.com</span>
-                </div>
-           <br>
-                <h3>Address</h3>
-                <p>
-                    Vale Taxis,<br>101
-                    Barry Road,<br>Barry</p>
+    <section id="intro">
+
+        <h3> Feedback about your driver</h3>
+        <p>You may also wish to send feedback directly to your local Licencing Department for incidents related to your
+            driver.
+
+            When contacting your local authority, remember to include:
+        <ul>
+            <li> A photo/note of the driver number​</li>
+            <li> the vehicle registration number</li>
+            <li>the license plate number</li>
+            <li>the date, time, and where the incident happened.</li>
+        </ul>
+        </p>
+        <div class="row">
+            <h4 style="text-align:center">We'd love to hear from you!</h4>
+            <div class="container2">
+                <form action="submit_phpcrm_form.php" method="post">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="phone">Phone</label>
+                    <input type="number" id="phone" name="phone" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" style="height:100px"></textarea>
+
+                    <input type="submit" value="Submit" class="btn">
+
+                </form>
             </div>
         </div>
-      </section>
+        <h3>Get in touch</h3>
+
+        <div>
+            <span class="bold">Phone: </span>
+            <span>012 345 678 910</span>
+        </div>
+        <div>
+            <span class="bold">Email: </span>
+            <span>email@valetaxi.com</span>
+        </div>
+        <br>
+        <h3>Address</h3>
+        <p>
+            Vale Taxis,<br>101
+            Barry Road,<br>Barry</p>
+        </div>
+        </div>
+    </section>
 
     <!--map-->
-      <section id="map-wrapper">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3570.427443630664!2d-3.2632560802163004!3d51.41265003530602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e05bdf91ba911%3A0xd36f767c9c4ffb75!2s101%20Barry%20Rd%2C%20Barry%20CF63%201BB!5e0!3m2!1sen!2suk!4v1684918095726!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </section>
-    
+    <section id="map-wrapper">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3570.427443630664!2d-3.2632560802163004!3d51.41265003530602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e05bdf91ba911%3A0xd36f767c9c4ffb75!2s101%20Barry%20Rd%2C%20Barry%20CF63%201BB!5e0!3m2!1sen!2suk!4v1684918095726!5m2!1sen!2suk"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
     <!--footer-->
-        <footer class="text-uppercase">
-    
-            <span>Find us on:</span>
-    
-            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
-    
-            <p>Copyright © Vale Taxis 2023</p>
-        
-        </footer>
-   
+
+    <footer class="footer">
+        <a href="https://www.facebook.com/" target="_blank" class="social">
+            <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
+            <span class="sr-only">Facebook</span>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" class="social">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            <span class="sr-only">Instagram</span>
+        </a>
+        <a href="https://www.youtube.com/" target="_blank" class="social">
+            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+            <span class="sr-only">Youtube</span>
+        </a>
+    </footer>
+    <!-- Arrow used to scroll back to the top of the page after viewing gallery images-->
+    <a href="#"><i class="fas fa-arrow-up position-fixed text-center rounded-circle" aria-hidden="true"></i></a>
+    <!--javascript-->
+    <script src="https://kit.fontawesome.com/1704febde4.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
