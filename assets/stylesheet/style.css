@@ -348,10 +348,10 @@ input[type=date] {
 }
 
 .fa-arrow-up:hover {
-    background: 0px 0px 10px rgba(240, 207, 125, 0.978);
+    background: 0 0 0 rgba(240, 207, 125, 0.978);
     bottom: 2rem;
     -webkit-box-shadow: 0.1875rem 0.1875rem 0.0625rem rgba(178, 148, 51, 0.8);
-    box-shadow: 0px 0px 10px rgba(240, 207, 125, 0.978);
+    box-shadow: 0 0 0 rgba(240, 207, 125, 0.978);
 }
 
 /* map */
